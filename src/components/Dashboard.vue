@@ -174,9 +174,8 @@
 
 <script>
   // eslint-disable-next-line no-unused-vars
-  import axios from 'axios';
   import Movie from './Movie.vue';
-  import Theater from '../services/TheaterController.js';
+  import Theater from '../js/TheaterController.js';
 
   export default {
     name: 'DashboardVue',
