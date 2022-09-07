@@ -24,6 +24,7 @@
     "vue-resource": "^1.5.3",
     "vue-router": "^3.5.4",
     "vue-session": "^1.0.0",
+    "node-sass": "^5.0.0",
     "vue-sticky-directive": "^0.0.10"
   },
   "devDependencies": {
@@ -32,7 +33,6 @@
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
     "eslint-plugin-vue": "^6.2.2",
-    "node-sass": "^5.0.0",
     "sass-loader": "^10.1.1",
     "vue-template-compiler": "^2.6.11"
   },
