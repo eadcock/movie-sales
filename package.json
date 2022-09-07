@@ -19,12 +19,13 @@
     "core-js": "^3.6.5",
     "crypto": "^1.0.1",
     "nanoid": "^4.0.0",
+    "node-sass": "^6.0.0",
+    "sass": "^1.54.8",
     "vue": "^2.6.11",
     "vue-awesome": "^4.5.0",
     "vue-resource": "^1.5.3",
     "vue-router": "^3.5.4",
     "vue-session": "^1.0.0",
-    "node-sass": "^6.0.0",
     "vue-sticky-directive": "^0.0.10"
   },
   "devDependencies": {
@@ -33,7 +34,7 @@
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
     "eslint-plugin-vue": "^6.2.2",
-    "sass-loader": "^11.1.1",
+    "sass-loader": "^10.1.1",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
