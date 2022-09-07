@@ -1,0 +1,38 @@
+$primary-bg: #785589;
+$dark-selected: #BB8A89;
+$dark-select: #AC7B7D;
+$darker-bg: #121411;
+$dark-bg: #1b1f1b;
+$dark-highlight: #5d5e5d;
+$white-text: rgb(238, 238, 238);
+
+$colors: (
+    "accent": $primary-bg,
+    "selected": $dark-selected,
+    "select": $dark-select,
+    "bg": $dark-bg,
+    "bg-darker": $darker-bg,
+    "highlight": $dark-highlight,
+    "text": $white-text
+);
+
+$navbar-dark-hover-color: $dark-select;
+$navbar-dark-brand-hover-color: $dark-select;
+
+$nav-tabs-link-active-color: $white-text;
+$nav-tabs-link-hover-color: $dark-select;
+$nav-tabs-link-hover-border-color: $dark-select;
+$nav-tabs-link-active-bg: $dark-selected;
+
+$border-color: $dark-select;
+$input-bg: $darker-bg;
+$input-border-color: $dark-highlight;
+$input-color: $white-text;
+
+$input-disabled-bg: $darker-bg;
+
+$theme-colors: (
+    "primary": #AC7B7D,
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

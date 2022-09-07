@@ -1,0 +1,51 @@
+:root {
+  --primary-bg: #785589;
+  --dark-selected: #BB8A89;
+  --dark-select: #AC7B7D;
+  --darker-bg: #121411;
+  --dark-bg: #1b1f1b;
+  --dark-highlight: #5d5e5d;
+  --white-text: rgb(238, 238, 238);
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--dark-bg);
+  color: var(--white-text);
+}
+
+.navbar-main {
+  height: 50px;
+  background-color: var(--dark-bg);
+  width: 100vw;
+}
+
+.sidebar {
+    height: calc(100vh - 50px);
+    background-color: var(--dark-bg);
+    color: var(--white-text);
+}
+
+.body-content {
+  margin: 0;
+  width: 100vw;
+}
+
+.fxei-learn-content {
+  height: calc(100vh - 50px) !important;
+  width: calc(100% - 10px);
+  overflow: scroll;
+}
+
+.fa-icon {
+  display: inline-block;
+  fill: currentColor;
+  overflow: visible;
+  
+  width: auto;
+  height: 1em; /* or any other relative font sizes */
+
+  /* You would have to include the following two lines to make this work in Safari */
+  max-width: 100%;
+  max-height: 100%;
+}
