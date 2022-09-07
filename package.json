@@ -24,7 +24,7 @@
     "vue-resource": "^1.5.3",
     "vue-router": "^3.5.4",
     "vue-session": "^1.0.0",
-    "node-sass": "^5.0.0",
+    "node-sass": "^6.0.0",
     "vue-sticky-directive": "^0.0.10"
   },
   "devDependencies": {
